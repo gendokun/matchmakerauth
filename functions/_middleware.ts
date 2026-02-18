@@ -48,7 +48,7 @@ export const onRequest: PagesFunction<{ SITE_PASSWORD: string }> = async (contex
       </head>
       <body>
         <form method="POST">
-          <h2>Interner Bereich</h2>
+          <h2>Matchmaker</h2>
           <p>Bitte gib das Passwort ein:</p>
           <input type="password" name="password" autofocus>
           <br>
